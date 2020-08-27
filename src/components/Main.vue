@@ -1,11 +1,15 @@
 <template>
   <div class="container-fluid">
-    <h2 class="text-underline copy-on-click" @click="copyToClipboard">
-      <u id="ResourceName">
+    <h2
+      class="text-underline copy-on-click"
+      @click="copyToClipboard"
+      style="border-bottom: solid 1px grey"
+    >
+      <span id="ResourceName">
         <p>{{resourceName}}</p>
-      </u>
+      </span>
     </h2>
-    <p>&lt;Customer&gt;-&lt;Environment&gt;-&lt;Location&gt;-&lt;Service&gt;-&lt;InstanceNumber&gt;-&lt;Resource&gt;</p>
+    <!-- <p>&lt;Customer&gt;-&lt;Environment&gt;-&lt;Location&gt;-&lt;Service&gt;-&lt;InstanceNumber&gt;-&lt;Resource&gt;</p> -->
 
     <div class="row">
       <div class="col">

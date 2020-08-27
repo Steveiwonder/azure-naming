@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <h1>Azure Naming</h1>
+    <img alt="Vue logo" src="./assets/logo.png" style="max-width:2rem" />
+    <h1>Azure Resource Naming</h1>
     <Main />
   </div>
 </template>
